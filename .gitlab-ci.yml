@@ -10,7 +10,7 @@ before_script:
 pages:
   stage: deploy
   script:
-    - bundle exec jekyllbuild -d public/
+    - bundle exec jekyll build -d public/
   artifacts:
     paths:
       # The folder that contains the files to be exposed at the Page URL
