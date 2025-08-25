@@ -1,5 +1,5 @@
 # The Docker image that will be used to build your app
-image: registry.gitlab.com/pages/jekyll:latest
+image: ruby:3.2.3
 # add bundle cache to 'vendor' for speeding up builds
 cache:
   paths:
