@@ -8,5 +8,13 @@
 
 body {
     font-family: "Lora", "Times New Roman", serif;
-    line-height: 1.6; // Важно для удобочитаемости
+    line-height: 1.6;
+}
+
+.site-nav {
+    display: none;
+}
+
+.site-footer {
+    display: none;
 }
