@@ -1,0 +1,12 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// $content-width:    1200px !default;
+
+@import "minima";
+
+body {
+    font-family: "Lora", "Times New Roman", serif;
+    line-height: 1.6; // Важно для удобочитаемости
+}
